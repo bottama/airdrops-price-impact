@@ -23,7 +23,7 @@ airdrops-price-impact/
 ## Table of contents
 1. [Deliverables](#deliverables)
 2. [Src](#src)
-3. [Report](#report
+3. [Report](#report)
 
 ## Deliverables
 In this folder is contained the only script that you need to run to perform the analysis: [run_analysis.py](/deliverables/run_analysis.py).
@@ -43,8 +43,8 @@ In practice, a user must, for the most part, hold a certain amount of a predefin
 Let us take a closer look at the case of $OMG.
 
 The BOBA Network announced that the OMG Foundation would launch a token to support the network (BOBA) as a governance token.
-Users holding OMG tokens on L1 or L2 on November 12, 2021 at 00:00 received a BOBA token for each OMG token they held in their wallets. 
-[Link to full story](https://boba.network/token/)
+Users holding OMG tokens on L1 or L2 on November 12, 2021 at 00:00 received a BOBA token for each OMG token they held in their wallets ([Link to full story](https://boba.network/token/)).
+
 This sounds great: free tokens!
 
 But, as you might surmise, behind every airdrop is a great deal of marketing hype trying to create project awareness to boost the price.
