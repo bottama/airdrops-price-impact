@@ -51,7 +51,7 @@ But, as you might surmise, behind every airdrop is a great deal of marketing hyp
 
 In the first subplot on the below chart, you can see the price dynamics of $OMG (blue line) and OMG-PERP (orange line) ten days before and after the airdrop (data provided by [FTX.com](https://docs.ftx.com/#overview).
 
-![](/reports/OMG_case_study)
+![](/reports/OMG_case_study.png)
 
 Before the snapshot, the spot price increased from $15 to $20 (approx. 33%), while the future perpetual price went from $15 to around $16 (approx. 6%), creating a strong backwardation.
 
