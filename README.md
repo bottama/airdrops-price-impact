@@ -24,6 +24,7 @@ airdrops-price-impact/
 1. [Deliverables](#deliverables)
 2. [Src](#src)
 3. [Report](#report)
+3.1. [The case of $OMG and BOBA Airdrop](#the-case-of-$omg-and-boba-airdrop)
 
 ## Deliverables
 In this folder is contained the only script that you need to run to perform the analysis: [run_analysis.py](/deliverables/run_analysis.py).
@@ -40,6 +41,9 @@ According to the [Binance Academy Glossary](https://academy.binance.com/en/gloss
 
 In practice, a user must, for the most part, hold a certain amount of a predefined asset in a public wallet at the time of the snapshot, and after that they will receive the new coins for "free" in their wallet.
 
+
+### The case of $OMG and BOBA Airdrop
+
 Let us take a closer look at the case of $OMG.
 
 The BOBA Network announced that the OMG Foundation would launch a token to support the network (BOBA) as a governance token.
@@ -49,7 +53,7 @@ This sounds great: free tokens!
 
 But, as you might surmise, behind every airdrop is a great deal of marketing hype trying to create project awareness to boost the price.
 
-In the first subplot on the below chart, you can see the price dynamics of $OMG (blue line) and OMG-PERP (orange line) ten days before and after the airdrop (data provided by [FTX.com](https://docs.ftx.com/#overview).
+In the first subplot on the below chart, you can see the price dynamics of $OMG (blue line) and OMG-PERP (orange line) ten days before and after the airdrop (data provided by [FTX.com](https://docs.ftx.com/#overview)).
 
 ![](/reports/OMG_case_study.png)
 
@@ -67,18 +71,23 @@ In the second subplot, we can see the Hourly Funding Rates Annualised (grey line
 Funding rates represent the "cost of capital" of entering a position in the perpetual futures market. 
 
 When funding rates are greater (lower) than 0, the market is in contango (backwardation).
-Also, when funding rates are positive (negative), the holder of a long position (short position) will pay the funding rate every hour to the holder of a short position (long position).
-Therefore, it is important to account for them when studying the PnL of a hedging strategy.
+Also, when funding rates are positive (negative), the holder of a long position (short position) will pay the funding rate every hour to the holder of a short position (long position). Therefore, it is important to account for them when studying the PnL of a hedging strategy.
 
 Let us say we wanted the BOBA token, but we did not want to run the price risk. We would need to hedge our position by taking a short position in the futures market. Given the pronounced backwardation, every hour we would have to pay the funding, thus making this strategy really expensive.
 
-In the third subplot, we see the performance of a long only strategy on $OMG (blue line), and the performance of a hedged strategy consisting of buying $OMG and shorting at time 0 OMG-PERP for the same notional amount (orange line). 
-Both performed poorly: long-only: -37.6%, and the hedged one: -30.62%.
+In the third subplot, we see the performance of a long only strategy on $OMG (blue line), the performance of a hedged strategy consisting of buying $OMG and shorting at time 0 OMG-PERP for the same notional amount (orange line) and the performance of a fully funded long position on OMG-PERP (green-line).
+
+* long-only $OMG: -37.6%
+* long $OMG short OMG-PERP: -29.16%
+* long-only OMG-PERP fully funded: -6.99% 
 
 Finally, one should play the game in these three cases:
 a. One believes in a new project (BOBA, in this case) really strongly and wants to obtain the airdrop no matter the price of $OMG.
 b. One is fast enough to get out before it is too late.
-c. One is a risk-lover and is trying to speculate by entering a leverged long position in the perpetual, gaining the negative funding rates and any price increase.And today, almost the same thing is happening with $CREAM.
+c. One is a risk-lover and is trying to speculate by entering a leverged long position in the perpetual, gaining the negative funding rates and any price increase.
+
+
+And today, almost the same thing is happening with $CREAM.
 
 After the announcement of the new airdrop, the spot price started climbing: from $40 to roughly $90 (120% approx. in just two days), and the perpetual price followed slightly below this number. 
 
