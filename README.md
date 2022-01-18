@@ -16,7 +16,7 @@ airdrops-price-impact/
         utils.py
     reports/
         CREAM_case_study.png
-        ONG_case_study.ong
+        OMG_case_study.ong
     README.md
 ~~~~
 
@@ -52,7 +52,7 @@ This sounds great: free tokens!
 
 But, as you might surmise, behind every airdrop is a great deal of marketing hype trying to create project awareness to boost the price.
 
-In the first subplot on the below chart, you can see the price dynamics of $OMG (blue line) and OMG-PERP (orange line) ten days before and after the airdrop (data provided by [FTX.com](https://docs.ftx.com/#overview)).
+In the first subplot on the below chart, you can see the price dynamics of $OMG (blue line) and OMG-PERP (orange line) ten days before and after the airdrop (data provided by [FTX.com](https://docs.ftx.com/#overview).)
 
 ![](/reports/OMG_case_study.png)
 
