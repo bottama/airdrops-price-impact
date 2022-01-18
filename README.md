@@ -16,7 +16,7 @@ airdrops-price-impact/
         utils.py
     reports/
         CREAM_case_study.png
-        OMG_case_study.ong
+        OMG_case_study.png
     README.md
 ~~~~
 
@@ -28,8 +28,8 @@ airdrops-price-impact/
 ## Deliverables
 In this folder is contained the only script that you need to run to perform the analysis: [run_analysis.py](/deliverables/run_analysis.py).
 The script produces to plots that are stored in [/reports](/reports):
-1. [OMG case study](/reports/OMG_case_study)
-2. [CREAM case study](/reports/CREAM_case_study)
+1. [OMG case study](/reports/OMG_case_study.png)
+2. [CREAM case study](/reports/CREAM_case_study.png)
 
 ## Src
 In this folder is the script with the set of functions that perform the analysis: [utils.py](/src/utils.py) 
