@@ -24,6 +24,7 @@ airdrops-price-impact/
 1. [Deliverables](#deliverables)
 2. [Src](#src)
 3. [Report](#report)
+
 3.1. [The case of $OMG and BOBA Airdrop](#the-case-of-$omg-and-boba-airdrop)
 
 ## Deliverables
@@ -82,9 +83,9 @@ In the third subplot, we see the performance of a long only strategy on $OMG (bl
 * long-only OMG-PERP fully funded: -6.99% 
 
 Finally, one should play the game in these three cases:
-a. One believes in a new project (BOBA, in this case) really strongly and wants to obtain the airdrop no matter the price of $OMG.
-b. One is fast enough to get out before it is too late.
-c. One is a risk-lover and is trying to speculate by entering a leverged long position in the perpetual, gaining the negative funding rates and any price increase.
+1. One believes in a new project (BOBA, in this case) really strongly and wants to obtain the airdrop no matter the price of $OMG.
+2. One is fast enough to get out before it is too late.
+3. One is a risk-lover and is trying to speculate by entering a leverged long position in the perpetual, gaining the negative funding rates and any price increase.
 
 
 And today, almost the same thing is happening with $CREAM.
