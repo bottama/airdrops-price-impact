@@ -25,8 +25,6 @@ airdrops-price-impact/
 2. [Src](#src)
 3. [Report](#report)
 
-3.1. [The case of $OMG and BOBA Airdrop](#the-case-of-$omg-and-boba-airdrop)
-
 ## Deliverables
 In this folder is contained the only script that you need to run to perform the analysis: [run_analysis.py](/deliverables/run_analysis.py).
 The script produces to plots that are stored in [/reports](/reports):
@@ -88,22 +86,22 @@ Finally, one should play the game in these three cases:
 3. One is a risk-lover and is trying to speculate by entering a leverged long position in the perpetual, gaining the negative funding rates and any price increase.
 
 
+### The case of $CREAM and veIB Airdrop
+
 And today, almost the same thing is happening with $CREAM.
 
 After the announcement of the new airdrop, the spot price started climbing: from $40 to roughly $90 (120% approx. in just two days), and the perpetual price followed slightly below this number. 
 
 In my view, whether $CREAM was really in high water, investors front ran the announcement too soon and too quickly.
 
-Assuming funding rates to be on average (optimistically) -100% annualised, shorting the perp and paying the funding for ten days will cost approx 2.8% too much. 
+Assuming funding rates to be on average (optimistically) -100% annualised, shorting the perp and paying the funding for ten days will cost approx 2.8%, too much. 
 
 In the plot below, we can see the price dynamics (first subplot), the funding rates (second subplot), and the strategies performance (third subplot) as of today.
 
-(plot: CREAM_case_study.pdf)
+![](/reports/CREAM_case_study.png)
 
 At the time of writing, $CREAM is trading at $61. 
 
 Looking at the charts and at some key indicators (RSI, MAs, etc.), I expect prices to drop a bit more before a nice rally occurs prior the snapshot.
 
 Given the current market capitalisation of $38 million, a 100% price increase would not be out of the ordinary in the crypto space, but please do not forget to pay attention to the airdrop's snapshot.
-
-Happy trading!
